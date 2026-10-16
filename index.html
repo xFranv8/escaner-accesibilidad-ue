@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EAAScan · Accesibilidad EAA para tiendas online</title>
+<meta name="description" content="Escanea tu tienda Shopify o WooCommerce, arregla los problemas de accesibilidad en el código y genera tu declaración EAA.">
+<style>
+:root{--d:#0a3d2a;--bg:#f7faf8}
+*{box-sizing:border-box}body{margin:0;font:17px/1.55 system-ui,sans-serif;color:#1a1a1a;background:var(--bg)}
+a{color:var(--d)}.wrap{max-width:960px;margin:auto;padding:0 20px}
+header{background:var(--d);color:#fff;padding:14px 0}header .wrap{display:flex;justify-content:space-between;align-items:center}
+.lang button{background:none;border:1px solid #fff;color:#fff;padding:4px 10px;border-radius:4px;cursor:pointer}
+.lang button[aria-pressed=true]{background:#fff;color:var(--d)}
+.hero{padding:56px 0 32px}h1{font-size:2.1rem;line-height:1.2}
+.cta{display:inline-block;background:var(--d);color:#fff;padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:600;margin:6px 6px 6px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:#fff;border:1px solid #d6e4dc;border-radius:8px;padding:20px}
+.box{margin:30px 0}
+table{border-collapse:collapse;width:100%;background:#fff}th,td{border:1px solid #d6e4dc;padding:8px;text-align:left}
+.price{font-size:2rem;font-weight:700}.small{font-size:.85rem;color:#444}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:6px}
+:focus-visible{outline:3px solid #f90;outline-offset:2px}
+[data-l]{display:none}html[lang=es] [data-l=es],html[lang=en] [data-l=en]{display:revert}
+footer{padding:30px 0;color:#444;font-size:.85rem}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Saltar al contenido / Skip to content</a>
+<header><div class="wrap"><strong>EAAScan</strong>
+<div class="lang" role="group" aria-label="Idioma / Language"><button type="button" id="b-es" aria-pressed="true">ES</button> <button type="button" id="b-en" aria-pressed="false">EN</button></div></div></header>
+<main id="main" class="wrap">
+<section class="hero">
+<h1><span data-l="es">Cumple la European Accessibility Act sin overlays ni sustos</span><span data-l="en">Comply with the European Accessibility Act, without overlays or nasty surprises</span></h1>
+<p><span data-l="es">Desde el 28-06-2025 las tiendas online de la UE (salvo microempresas) deben ser accesibles, y los reguladores ya inspeccionan. EAAScan escanea tu tienda Shopify o WooCommerce, te dice qué arreglar <em>en tu tema</em>, genera la declaración de accesibilidad y te avisa cuando un cambio rompe algo.</span><span data-l="en">Since 28 June 2025, EU online shops (except microenterprises) must be accessible, and regulators are already checking. EAAScan scans your Shopify or WooCommerce store, tells you what to fix <em>in your theme</em>, generates your accessibility statement and alerts you when a change breaks something.</span></p>
+<a class="cta tally" href="https://tally.so/r/PRjXW1?ref=direct" target="_blank" rel="noopener"><span data-l="es">Quiero mi escaneo EAA gratis</span><span data-l="en">Get my free EAA scan</span></a>
+</section>
+<section class="grid" aria-label="Funciones / Features">
+<div class="card"><h2>1. <span data-l="es">Escanea</span><span data-l="en">Scan</span></h2><p><span data-l="es">Home, colección, producto, carrito y checkout, contra WCAG 2.1 AA / EN 301 549.</span><span data-l="en">Home, collection, product, cart and checkout pages, checked against WCAG 2.1 AA / EN 301 549.</span></p></div>
+<div class="card"><h2>2. <span data-l="es">Arregla de verdad</span><span data-l="en">Fix for real</span></h2><p><span data-l="es">Código concreto para tu tema (alt, contraste, etiquetas, foco), no un widget que tapa el problema.</span><span data-l="en">Specific code for your theme (alt text, contrast, labels, focus), not a widget that papers over the problem.</span></p></div>
+<div class="card"><h2>3. <span data-l="es">Declara y vigila</span><span data-l="en">Declare &amp; monitor</span></h2><p><span data-l="es">Declaración de accesibilidad en ES/EN/DE/FR/NL/IT y reescaneo semanal con alertas.</span><span data-l="en">Accessibility statement in ES/EN/DE/FR/NL/IT, plus a weekly re-scan with alerts.</span></p></div>
+</section>
+<section class="box"><h2><span data-l="es">Frente a la competencia</span><span data-l="en">How we compare</span></h2>
+<table><thead><tr><th scope="col"><span data-l="es">Aspecto</span><span data-l="en">Aspect</span></th><th scope="col">EAAScan</th><th scope="col">accessiBe</th><th scope="col">Axlura</th><th scope="col">Regulia</th></tr></thead><tbody>
+<tr><td><span data-l="es">Enfoque</span><span data-l="en">Approach</span></td><td><span data-l="es">Arreglos en el código</span><span data-l="en">Fixes in the code</span></td><td><span data-l="es">Overlay (muy criticado)</span><span data-l="en">Overlay (heavily criticised)</span></td><td><span data-l="es">Escáner</span><span data-l="en">Scanner</span></td><td><span data-l="es">Cumplimiento</span><span data-l="en">Compliance</span></td></tr>
+<tr><td><span data-l="es">Declaración EAA multidioma</span><span data-l="en">Multilingual EAA statement</span></td><td>✔</td><td>–</td><td>?</td><td>?</td></tr>
+<tr><td><span data-l="es">Precio/mes</span><span data-l="en">Price/month</span></td><td><strong>19 € (<span data-l="es">fundador</span><span data-l="en">founder</span>)</strong></td><td><span data-l="es">más caro</span><span data-l="en">higher</span></td><td>19–39 €</td><td>49 €</td></tr>
+</tbody></table>
+<p class="small"><span data-l="es">Datos públicos de las webs de cada proveedor, octubre de 2026. Ninguna herramienta automática detecta todos los problemas; combinamos escaneo y checklist manual guiada.</span><span data-l="en">Public data from each vendor's website, October 2026. No automated tool catches every issue, so we combine scanning with a guided manual checklist.</span></p></section>
+<section id="waitlist" class="box"><h2><span data-l="es">Lista de espera + escaneo gratis</span><span data-l="en">Waitlist + free scan</span></h2>
+<p><span data-l="es">Un formulario de 1 minuto: email, URL de tu tienda y plataforma.</span><span data-l="en">A 1-minute form: email, store URL and platform.</span></p>
+<a class="cta tally" href="https://tally.so/r/PRjXW1?ref=direct" target="_blank" rel="noopener"><span data-l="es">Apuntarme a la lista de espera</span><span data-l="en">Join the waitlist</span></a>
+</section>
+<section id="preventa" class="card box"><h2><span data-l="es">Preventa fundador (50 plazas)</span><span data-l="en">Founder pre-order (50 spots)</span></h2>
+<p class="price">19 €<span class="small">/<span data-l="es">mes, bloqueado de por vida</span><span data-l="en">month, locked for life</span></span></p>
+<p><span data-l="es">El precio normal será de 29–39 €/mes. Hoy no se cobra nada: reservas tu plaza y te escribimos para pagar cuando el MVP esté listo.</span><span data-l="en">The regular price will be €29–39/month. You won't be charged today: you reserve a spot, and we'll contact you to pay once the MVP is ready.</span></p>
+<a class="cta tally" href="https://tally.so/r/PRjXW1?ref=direct" target="_blank" rel="noopener"><span data-l="es">Reservar precio fundador de 19 €/mes</span><span data-l="en">Reserve the €19/month founder price</span></a>
+</section>
+</main>
+<footer class="wrap"><p><span data-l="es">Responsable: Fran (GitHub xFranv8). Contacto a través del formulario. EAAScan no es asesoramiento legal. Tus datos se usan solo para contactarte sobre este producto (RGPD); puedes pedir su borrado desde el formulario.</span><span data-l="en">Data controller: Fran (GitHub xFranv8). Contact via the form. EAAScan is not legal advice. Your data is used only to contact you about this product (GDPR); you can request deletion through the form.</span></p></footer>
+<script>
+(function(){
+function setL(l){document.documentElement.lang=l;['es','en'].forEach(function(x){document.getElementById('b-'+x).setAttribute('aria-pressed',String(x===l))});try{localStorage.setItem('l',l)}catch(e){}}
+document.getElementById('b-es').addEventListener('click',function(){setL('es')});
+document.getElementById('b-en').addEventListener('click',function(){setL('en')});
+var saved=null;try{saved=localStorage.getItem('l')}catch(e){}
+if((saved||navigator.language||'es').slice(0,2)==='en')setL('en');
+var r=new URLSearchParams(location.search).get('ref')||'direct';
+document.querySelectorAll('a.tally').forEach(function(a){a.href='https://tally.so/r/PRjXW1?ref='+encodeURIComponent(r)});
+})();
+</script>
+<!-- Cloudflare Web Analytics (placeholder; sustituir TU_TOKEN y descomentar para activarlo):
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "TU_TOKEN"}'></script>
+-->
+</body>
+</html>
